@@ -13,7 +13,7 @@ except ImportError:
 
 setup(
     name='itk-genericlabelinterpolator',
-    version='1.1.0',
+    version='1.1.1',
     author='Joël Schaerer',
     author_email='joelthelion@laposte.net',
     packages=['itk'],
@@ -51,6 +51,6 @@ setup(
     keywords='ITK InsightToolkit Label-images Interpolation',
     url=r'https://github.com/InsightSoftwareConsortium/ITKGenericLabelInterpolator',
     install_requires=[
-        r'itk>=5.2rc1'
+        r'itk>=5.3rc2.post2'
     ]
     )
